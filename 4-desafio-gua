@@ -1,0 +1,11 @@
+#nome, idade, mês e ano formatada
+n=str(input ( " please, digite o your nome"));
+d=int(input(" please, qual o dia do seu aniversario"));
+m=int( input ( " please, digite em número o mes do seu niver"));
+ano=int ( input ("digite, please, os 4 numeros do ano seu nascimento, sem espaco");
+# printsimples
+print(n, ":",  d, "/", m,"/", ano,)
+print ( " Aproveite o seu dia !")
+print (" Idade é apenas um digito")
+print (" Que está data prolongo-se por muitos anos")
+#prof
