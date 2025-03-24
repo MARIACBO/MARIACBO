@@ -3,3 +3,4 @@ n1=int(input (" por favor, digite o 1 numero inteiro"));
 n2=int(input(" por favor, digite o 2 numero inteiro"));
 n=n1+n2;
 print ( " a soma solicitada foi:", n)
+#base: int(7), float(.), bool( true/ false), str(string)
