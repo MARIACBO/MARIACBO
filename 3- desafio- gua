@@ -1,3 +1,6 @@
 #prazer em conhecer + nome
 n=str(input("por gentileza, informe o seu nome);
 print("bem- vindo"+n+" ar tech"))
+#prof
+n=input ("digite o seu nome:")
+print("É um prazer conhecer, {}!.format(n))
