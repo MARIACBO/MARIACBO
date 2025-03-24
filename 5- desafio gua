@@ -7,3 +7,4 @@ print ( " a soma solicitada foi:", n)
 #type : mostra a base / tipo
 #print prod
 print(" a soma entre {} e {} v(" a soma entre {} e {} vale{}.format())ale{}.forma(n1, n2,n))
+#f(x)=isalnum
