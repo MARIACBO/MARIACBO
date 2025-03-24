@@ -3,4 +3,7 @@ n1=int(input (" por favor, digite o 1 numero inteiro"));
 n2=int(input(" por favor, digite o 2 numero inteiro"));
 n=n1+n2;
 print ( " a soma solicitada foi:", n)
-#base: int(7), float(.), bool( true/ false), str(string)
+#base/kind/sort: int(7), float(.), bool( true/ false), str(string)
+#type : mostra a base / tipo
+#print prod
+print(" a soma entre {} e {} v(" a soma entre {} e {} vale{}.format())ale{}.forma(n1, n2,n))
