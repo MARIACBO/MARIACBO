@@ -1,0 +1,3 @@
+#prazer em conhecer + nome
+n=str(input("por gentileza, informe o seu nome);
+print("bem- vindo"+n+" ar tech"))
