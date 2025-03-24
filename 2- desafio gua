@@ -1,0 +1,9 @@
+#fundamentos;
+#delimitador: "" ou''' ''';
+#todos comandos säo f(x);
+#+ mostra a mensagem e , depende do caso
+#nome, idade e peso
+n=input( "qual o seu nome");
+i=int((input("qual a sua idade")
+p=float((input("qual o seu peso"))
+print( n, i, p)
