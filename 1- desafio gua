@@ -1,2 +1,6 @@
 #digite na tela
 print("hello, word!")
+#licoesaprendidas- enter
+#prof
+n="ola, mundo!"
+print(n)
