@@ -1,0 +1,28 @@
+#+, /,-, %, **
+a= int(input( "por favor, digite o 1 numero inteiro")
+b=int(input(" por favor, digite o 2 numero inteiro")
+s=a+b
+sub=a-b
+div=a/b
+di=a//b
+mult=a*b
+exp=a**b
+r=a%b
+print(" a soma é:", s)
+print(" a sub é:", sub)
+print(" a divisão é:", div)
+print (" o di é:", di)
+print(" a multiplicacao e:", mult)
+print(" a expo é:", exp)
+print("o resto é:, r)
+#printdoprof
+print(" a soma é {}, o produto é{}  e a e dep divisao é {}:". format(s, mult, d))
+print(" a divisão inteira{} e a potencia{}:". format(di, exp))
+#fixacasafluruante
+print("a soma é , o produto e{}, e a divisao é{:.2}". format(s, m, d))
+#concatenar tudo em uma linha
+print (" a soma {}, a potencia e {}, a divisão é{:.3f}".format( s, m, d), end="")
+# lembre- se que pode fazer calc dentro do print
+#nova linha:/n colocar depois da , da soma
+#pode 2 quebras / n antes de soma e depois de divisao
+#pode colocar dentro do end enfeites ex:##or >>> or ××××
