@@ -1,0 +1,18 @@
+#digitealgo + is = true /false
+d=input("digite algo, por favor:")
+print (type(d)
+#prof
+#a é objeto= atributos e metodos
+a=input("digite algo:")
+#<class x>
+print( " o numero primitivo desse valor é:", type(a))
+print(" so tem espaco:", a.isspace)
+print( "e numero: , a.isnumeric)
+print( " e alfabrtico:", a.isalpha)
+print("e alfnum:":, is.alnum)
+# ma
+print ( " a letra é ma ou mi:", a.issupper)
+#mi
+print("a letra é ma ou mi", a.islower)
+# capitalizada=comeco ma e resto mi
+print( "está capitalizada:", a.istitle)
