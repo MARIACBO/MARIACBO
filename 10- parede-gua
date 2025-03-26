@@ -1,0 +1,9 @@
+#regradeb3parede
+#area
+h=int( "por favor, digite a altura:")
+l=int( por favor, digite a largura:")
+a= h*l
+print( " A area total a ser pintada é:", a)
+#2m2 pinta 1l
+pinta= a/2
+print( "o/ a senhora precisa de:", pinta)
