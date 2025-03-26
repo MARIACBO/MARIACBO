@@ -1,0 +1,5 @@
+#converte dolar $7
+n=str(input("por favor, digite o seu primeiro nome:")
+d=float(input( " por favor, digite a quantidade de dinheiro que o senhor(a) possui na carteira:")
+c=d/7
+print( " Senhor(a)", n, "o seu poder de compra é:", c)
