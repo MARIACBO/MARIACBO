@@ -1,0 +1,14 @@
+#dobro, triplo e raiz
+n= int(inout("digite um numero, por favor"))
+d=2*n
+t=3*n
+r=n**(0.5)
+#prof
+r=n**(1/2)
+r=pow(n,(1/2))
+print("o dobro de  {} é:".format(d))
+print(" o triplo de {} é:".format(t))
+priny( "a raiz de {} é:". format(r))
+print ( "bom estudo!")
+#prof
+print("o dobro de {} vale {}.".format(n,d))
