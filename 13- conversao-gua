@@ -1,0 +1,22 @@
+#conversor
+#entrada do numero em m
+m=int(input("por favor, digite o numero :"))
+#visualização do video
+print(" o número a ser convertido é:",m)
+#detalhes
+print("xxxxxxxx")
+print("conversão...")
+#m para dam +print
+dam=m*10
+print("O valor em dam:", dam)
+#m para hec
+hec=m*100
+print("o valor em hec:", hec)
+#m para km
+km=m*1000
+#m para cm
+cm=m*0.1
+print("o valor em cm:", cm)
+#m para mm
+mm=m*0.01
+print("o valor em mm:", mmm)
