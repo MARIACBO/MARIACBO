@@ -7,16 +7,27 @@ print(" o número a ser convertido é:",m)
 print("xxxxxxxx")
 print("conversão...")
 #m para dam +print
-dam=m*10
+dam=m/10
 print("O valor em dam:", dam)
 #m para hec
-hec=m*100
+hec=m/100
 print("o valor em hec:", hec)
 #m para km
-km=m*1000
+km=m/1000
+#m para dm
+dm=m*0.1
+print("o valor em cm:", dm)
 #m para cm
-cm=m*0.1
-print("o valor em cm:", cm)
+cm=m*0.01
+print("o valor em cm è:", cm)
 #m para mm
-mm=m*0.01
+mm=m*0.001
 print("o valor em mm:", mmm)
+#detalhes
+print("obrigado, por utilizar o nosso site")
+print("volte sempre ...")
+print( "Por favor, deixe uma melhoria ou elogio")
+print("Obrigado, por seu feedback")
+print("xxxxxxx")
+#print 
+print(" a médio {} m corresponde a {} cm e {} mm)".format(m,cm, mm))
