@@ -1,12 +1,23 @@
 #desconto 0 90 compra $100 e 0.80 compra $200
 n=float(input(" por favor, digite o valor da compra."))
-if (n==100){
-done=n*0.9
-print(" o seu desconto foi de:",done)
-print(" Muito obrigado e volto sempre, aqui você acumula pontos a cada compra.")
-}
-else{
-dtwo=n*0.8
-print(" o seu desconto foi de:",dtwo)
-print(" Muito obrigado e volto sempre, aqui você acumula pontos a cada compra.")
-}
+n= float(input( " por favor digite o valor da compra:"))
+#cal 
+d= n*0.9
+d2=n* 0.8
+
+#restrições 
+if n ==  100:
+     print( "xxxxxxx")
+     print("o seu desconto foi de:", n-d)
+     print("o valor  a ser pago é :" , d)
+     print("obrigado pela compra! ")
+     print("lembre-se que aqui a sua compra e transformada em pontosa ! Volte sempre")
+ 
+else :
+    print( "xxxxxxx")
+    print("o seu desconto foi de:",n-d2)
+    print("o valor total a ser pagpo é : ", d2)
+    print("obrigado pela compra !")
+    print("lembre-se que aqui a sua compra e transformada em pontosa ! Volte sempre")
+print("xxxxxxx")
+
