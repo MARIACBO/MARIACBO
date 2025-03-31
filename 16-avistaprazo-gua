@@ -1,0 +1,16 @@
+#aprazo e avista
+produto=str(input("por favor, digite o nome do produto:"))
+preco=float(input("por favor, digite o valor do produto: R$"))
+avista=preco*0.80
+desconto=preco- avista
+aprazo=preco*1.20
+juros=aprazo-preco
+print("xxxxxxxxx")
+print("Formas de pagamento(simulação):")
+print("O produto escolhido foi:", produto)
+print("valor a vista:R$", avista)
+print("Na compra a vista o seu desconto será:")
+print("O valor a prazo é:R$",aprazo)
+print("na compra a prazo o juro é de:R$",juros)
+print(" O senhor/ senhora pode adicionar no carinho ou na lista de desejo, avisaremos quando o produto estiver na promoção.")
+print( "Esperamos que finalize a compra!")
