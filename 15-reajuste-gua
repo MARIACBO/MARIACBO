@@ -14,4 +14,7 @@ bruto=valor*0.20
 print("a participação bruta é:", bruto)
 print("o salário com a participação é:", ajuste)
 print("obrigado, por fazer parte do nosso time e juntos somos mais fortes! Bom trabalho e bom descanso.")
-
+#prof
+salario=float(input("Qual o salário do funcionário? R$=")
+novo=salario+ (salario*15/100)
+print("o funcionario que ganhava R${:.2f}, com 15% de aumento, passa a receber R${:.2f}". format(salario,novo))
