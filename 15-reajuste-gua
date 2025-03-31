@@ -1,0 +1,17 @@
+#reajuste
+m=str(input("Por favor, digite o seu nome:"))
+print("xxxxxxx")
+print("Muito bem-vindo(a) ao detalhamento da sua promooção!", "senhor(a)",m)
+s=1000*1.15
+r=1000*0.15
+print("senhor(a)",m,"o seu ajuste foi de:",r)
+print("senhor(a) ", m, "o seu novo salário é", s)
+print( "O seu sucesso é o nosso!")
+#aumento coletivo /participação no lucro
+valor=float(input("Por favor, digite o seu salário atual:"))
+ajuste=valor*1.20
+bruto=valor*0.20
+print("a participação bruta é:", bruto)
+print("o salário com a participação é:", ajuste)
+print("obrigado, por fazer parte do nosso time e juntos somos mais fortes! Bom trabalho e bom descanso.")
+
