@@ -1,0 +1,5 @@
+#conversordemedida
+f= float(input("Por favor, digite o c° :"))
+contaf=(f*9/5)+32
+print(" A temperatura em f°: ", contaf)
+print("a temperatura de {} °c corresponde a {} °f".format(f,contaf))
