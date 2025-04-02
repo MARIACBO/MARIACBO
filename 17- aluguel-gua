@@ -1,0 +1,21 @@
+#aluguel
+km=int(input ("por favor, digite a quilometragem:"))
+#floatprof
+km2=float(input("por favor, digite a kilometragem?"))
+d=int(input("por favor, digite a quantidade de dias que deseja alugar o automóvel:"))
+cal=60*d+0.15*km
+cal2=60*d+0.15*km
+cald=60*d
+calkm=0.15*km
+jurosparcela=(cal)+cal*1.2
+jurosparcela2=(cal2)+cal2*1.2
+print("×××××÷××")
+print("simulação")
+print( " Valor por dia :",cald)
+print("o valor por km é:", calkm)
+print("o valor por km é:", cal2)
+print(" o valor total á vista:",cal )
+print("o valor a prazo:", jurosparcela)
+print("o valor a prazo(float =km):", jurosparcela2)
+print("Obrigado por viajar com a go.")
+print("xxxxxxx")
