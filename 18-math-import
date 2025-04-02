@@ -1,0 +1,24 @@
+#importacao+raiz
+import  math
+n=int(input("Por favor, digite o número da raiz desejada:"))
+raiz=math.sqrt(n)
+print("a raiz de {} é igual a {}:".format(n, raiz))
+print(" a raiz de {} é igual a {}:". format(n, math.ceil(raiz))
+print("a raiz de {} é igual a {}:".format(n,math.floor(raiz))
+print("a raiz de {} é igual a {:.2f}:". format(n, raiz))
+#modo2
+from math import sqrt
+n=int(input("qual o valor da raiz desejada:"))
+raiz=sqrt(n)
+print("a raiz de {} é igual a {} :".format(n, raiz))
+#modo3
+from math import sqrt,floor
+n=int(input("qual o valor da raiz desejada:")
+raiz=sqrt(n)
+print("a raiz de {} é igual a {} :". format(n, raiz))
+#import randon
+n=int(input("qual o valor da raiz desejada:")
+redondo=randon.ramdon()
+redondo=random.randint
+print(n)
+print("n1:", redondo)
