@@ -1,0 +1,10 @@
+#modo 1
+#importa all library
+import math
+#boapraticadoimport apenas o trunc
+from import math trunc
+n=float("por favor, digite um numero, não esqueç de colocar o . antes da parte fracionaria")
+print("o valor digitado foi {} a parte inteira {} é:". format(n,math.trunc(n))
+#modo2
+number=float("por favor, digite o valor fracionario, não esqueça do . exemplo(10.8):")
+print("o valor digitado foi {} a parte sem . é {}:".format(n,int(n))
