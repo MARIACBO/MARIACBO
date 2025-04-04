@@ -1,0 +1,12 @@
+#hipotenu
+a=float(input("por favor, digite o segundo valor:"))
+b=float(input("por favor,digite o segundi valar:"))
+c=(a**2+b**2)**(0.5)
+print("a hipotenuza é {}.".format(c))
+#prog
+import math
+a=float(input("por favor, digite o cateto oposto:"))
+b=float(input("por favor, digite o cateto adjacente:"))
+hi=math.hypot(a,b)
+print("o valor da hipotenusa é:", hi)
+print( "o valor da hipotenusa é {}".format(hi))
