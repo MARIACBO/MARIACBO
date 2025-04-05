@@ -1,0 +1,21 @@
+#anguloa
+import math
+a=float(input("por favor, digite o cateto oposto:"))
+b=float(input("por favor, digite o cateto adjacente:"))
+hi=math.hypot(a,b)
+print("o valor da hipotenusa é:", hi)
+print( "o valor da hipotenusa é {}".format(hi))
+#cos, sin e tan
+import math
+n=float(input ("por favor, digite o angulo:"))
+cos=math.cos((math.radians(n)))
+sin=math.sin((math.radians(n)))
+tan=math.tan((math.radians(n)))
+print("o valor do cossseno é {}".format(cos))
+print("o valor do seno é {}".format(sin))
+print("o valor da tangente é {}".format(tan))
+#printprof
+print("o ângulo de {} tem cos de {}  ".format(n, cos))
+print("o ângulo de {} tem sen de {} ".format(n, sin))
+print("o ângulo de {} tem tang de {}".format(n, tan))
+print(" Obrigado por utilizar nosso site , volte sempre!")
