@@ -1,4 +1,5 @@
 import random
+#import random from choice
 g1=str(input(" por favor , digite o nome do 1 grupo:"))
 g2=str(input("por favor, digite o nome do 2 grupo:"))
 g3=str(input("por favor, digite o nome do 3 grupo:"))
