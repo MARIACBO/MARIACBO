@@ -1,0 +1,8 @@
+import random
+g1=str(input(" por favor , digite o nome do 1 grupo:"))
+g2=str(input("por favor, digite o nome do 2 grupo:"))
+g3=str(input("por favor, digite o nome do 3 grupo:"))
+g4=str(input("por favot,digite o nome do 4 grupo:"))
+list=[g1, g2,g3,g4]
+escolhido=random.choice(list)
+print("o nome escolhido foi:", escolhido)
