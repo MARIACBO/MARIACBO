@@ -1,0 +1,22 @@
+#analisandotexto
+n=str(input(" por favor, digite o seu nome:"))
+#nome
+nome=str(input("Digite seu nome completo:")).strip()
+print("xxxxxx")
+print(" analisando seu ....")
+print("seu nome em maiuscula é {}".format(n.upper()))
+print("seu nome em minusculas é {}".format(n.lower()))
+#espacoconta
+print("seu nome tem ao todo {} letras:". format(len(n)))
+#printcomcut
+print("seu nome tem ao todo {} letras:".format(len(nome)))
+#retirandoespaco
+print("seu nome ao todo {} letras".format(len(n)-n.count("")))
+#pesquisar
+print("seu primeiro nome tem {} letras:".format(n.find('')))
+separa=n.split()
+print(separa)
+print("Seu primeiro nome é {} e ele tem {} letras".format(separa[0]))
+print("seu primeiro nome é {} e ele tem {} letras".format(separa[0], len(separa[0])))
+
+
