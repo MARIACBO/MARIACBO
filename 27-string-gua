@@ -1,0 +1,7 @@
+#string
+frase=str(input(" por favor, digite uma frase:")).upper()
+print(" a letra a aparecer {} vezes na frase.".format(frase.count("A")))
+print(" a letra a apareceu na posição {}".format(frase.find("A")+1))
+print("a ultima a apareceu na posiçåo {}".format(frase.rfind("A")+1))
+
+
