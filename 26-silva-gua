@@ -1,0 +1,3 @@
+n=str(input("por favor, digite o seu nome:")).strip()
+print("seu nome {} possui o sobrenome Silva!".format("Silva" or "SILVA"  or " silva" in n.lower ()))
+
