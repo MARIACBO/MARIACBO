@@ -1,0 +1,13 @@
+n=str(input("por favor, digite o seu nome:"))
+print("bem-vindo. muito obrigado por escolher nosso sistema! ")
+print(" prazer em conhecer você!")
+print(" o seu primeiro nome é:", (n[3]))
+#prof
+n=str(input("por favor, digite o seu nome:")).strip()
+print( "muito prazer em conhecer o senhor(a)")
+nome=n.split()
+print("your first name is:",nome[0])
+u=nome[-1]
+print("your último name is:", u)
+#printprof
+print("seu ultimo nome é {}.".format(nome[len(nome)-1]))
