@@ -1,0 +1,23 @@
+#imparpar
+n=int(input("por favor, digite um número:"))
+resto=n%2
+print("****")
+print(" o numero digitado digitado foi", n," e o resto é :", resto)
+print("****")
+if(resto==0):
+    print("xxxx informações xxxx")
+    print(" o numero digitado é par.")
+    print("obrigado por nós escolher ")
+    print("xxxxxxxxxxxxxxxxxxxxxx")
+else:
+    print("xxxx informações xxxx")
+    print("o numero digitado e impar")
+    print("obrigado por nós escolher.")
+    print("xxxxxxxxxxxxxxxxxxxxx")
+#prof
+rúmero=int(input("me diga qualquer numero:"))
+resultado= número %2
+if(resto ==0):
+    print("o número {} é par".format(número))
+else:
+    print("o número {} è ímpar".format(número))
