@@ -1,0 +1,17 @@
+#viagem
+km=float(input("por favor, digite a km:"))
+if(km<=200):
+    print('xxxxsimulaçãoxxxx')
+    custo=km*0.5
+    print("o custo da km {} é:".format(km))
+    print("o custo é:", custo)
+    
+    print("xxxxxxxxxxxxxxxxx")
+else:
+    print("xxxxsimulaçãoxxxx")
+    custo2=km*0.45
+    print("o custo de km {} é:".format(km))
+    print("o custo de:", custo2)
+    print("xxxxxxxxxxxxxxxx")
+    print ("boa viagem!obrigado por nós escolher.")
+    
