@@ -1,0 +1,13 @@
+ano=int(input("por favor, digite o ano:"))
+cal=bi%4
+if(cal ==0):
+    print("o ano é bi {}" .format(ano))
+else:
+    print("o ano {} nao é bi".format(ano))
+#prof
+ano=int(input("que ano você deseja analisar?"))
+if(ano % 4 == 0):
+   print("o ano {} é bissexto.sexto.".format(ano))
+ else:
+   print("o ano {} não é bissexto".format(ano))
+     
