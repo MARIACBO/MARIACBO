@@ -1,0 +1,20 @@
+import random
+primeiro=str(input("Por favor, digite o  nome do 1 aluno:"))
+segundo=str(input("por favor, digite o nome do 2 aluno:"))
+terceiro=str(input("digite o  nome do 3 aluno:"))
+quarto=str(input("digite o nome do 4 aluno:"))
+lista=[primeiro, segundo, terceiro, quarto]
+#verifique
+print(lista)
+#prof modo 1
+random.shuffle(lista)
+print("xxxxxxx")
+print("A ordem serra:")
+print(lista)
+print("xxxxxxx")
+#profmodo2
+from random import shuffle
+shuffle(lista)
+print("########")
+print(lista)
+print("########")
