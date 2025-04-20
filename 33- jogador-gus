@@ -1,0 +1,25 @@
+#jogador
+import random
+n1=int(input(" por favor, digite um numero de 1 a 5:"))
+n2=int(input("por favor, digite um numero de 0 a 5, diferente do anterior:"))
+n3=int(input("por favor, digite um numeron de 1 a 5 diferente do anterior:"))
+n4=int(input("por favor, digite um numero de 1. a 5 diferente do anterior:"))
+n5=int(input("por favor, digite o último numero de 1 a 5, diferente do anterior:"))
+lista=[n1, n2, n3, n4, n5]
+random.shuffle(lista)
+print(" o pc escolhou:", lista)
+#prof
+from random import randint
+#sorteio interno=processamento
+computador=randint(0,5)
+print('pensei no número {}'.format(computador))
+print("-=-"*20)
+print("vou pensar um número entre 0 e 5. tente adivinhar....")
+print("-=-"*20)
+print("*-*"*20)
+jogador=int( input("em que numero eu pensei:"))
+if(jogador==computador):
+    print("parabéns.você consegue me vencer!")
+else:
+    print("ganhei.eu pensei no número {} e não no {}".format(computador, jogador))
+print("*-*"*20)
