@@ -1,0 +1,22 @@
+a=int(input("por favor, digite o 1 número:"))
+b=int(input("por favor, digite o 2 número:"))
+c=int(input("por favor, digite o 3 número:"))
+#verificando quem e menor
+menor=a
+if b<a and b<c:
+    menor=b
+if c<a and c<b:
+    menor=c
+print("=*="*20)
+print("o menor valor digitado foi {}!".format(menor))
+print("=*="*20)
+#verificando o maior
+maior=a
+if b>a and b>c:
+    maior=b
+if c>a and c>b:
+  maior=c
+  print(maior)
+  print("=*="*20)
+  print(" o maior valor digitafo foi {}".format(maior))
+  print("=*="*20)
